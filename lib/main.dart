@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.brown,
+        // primarySwatch: Colors.brown,
+        brightness: Brightness.dark,
       ),
       // home: MyHomePage(),
       initialRoute: '/',
       routes: {
-        '/': (context) => MyCustomForm(),
+        '/': (context) => FirstScreen(),
         '/second': (context) => SecondScreen(),
       },
     );
