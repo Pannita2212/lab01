@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './ui/first_screen.dart';
 import './ui/second_screen.dart';
 import './ui/my_custom_form.dart';
+import './ui/todo_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
       // home: MyHomePage(),
       initialRoute: '/',
       routes: {
-        '/': (context) => FirstScreen(),
+        '/': (context) => TodoScreen(),
         '/second': (context) => SecondScreen(),
       },
     );
